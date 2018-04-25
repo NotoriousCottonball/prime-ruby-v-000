@@ -6,5 +6,5 @@
 
 def prime?(int)
   return if int <= 1 
-  (2..Math.sqrt)
+  (2..Math.sqrt(num))
   
