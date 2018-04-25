@@ -6,6 +6,6 @@
 
 def prime?(int)
   return false if int <= 1 
-  (2..Math.sqrt(int)).none? {|possible_factor| int % possible_factor = 0}
+  (2..Math.sqrt(int)).none? {|possible_factor| int % possible_factor == 0}
 end
   
