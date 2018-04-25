@@ -6,5 +6,5 @@
 
 def prime?(int)
   return if int <= 1 
-  Math
+  (2..)
   
