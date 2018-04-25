@@ -7,5 +7,5 @@
 def prime?(int)
   return if int <= 1 
   (2..Math.sqrt(int)).none? {|possible_factor| int % possible_factor = 0}
-  
+end
   
