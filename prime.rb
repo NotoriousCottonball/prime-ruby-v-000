@@ -5,6 +5,6 @@
 
 
 def prime?(int)
-  return false if int <= 1 
+  return if int <= 1 
   Math
   
